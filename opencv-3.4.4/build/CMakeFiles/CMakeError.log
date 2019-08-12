@@ -1,0 +1,1331 @@
+Compilation failed:
+    source file: '/home/s106/opencv4arm/opencv-3.4.4/cmake/checks/cxx11.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec963105325/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec963105325.dir/build.make CMakeFiles/cmTryCompileExec963105325.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec963105325.dir/cxx11.cpp.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++    -fPIE   -o CMakeFiles/cmTryCompileExec963105325.dir/cxx11.cpp.o -c /home/s106/opencv4arm/opencv-3.4.4/cmake/checks/cxx11.cpp
+/home/s106/opencv4arm/opencv-3.4.4/cmake/checks/cxx11.cpp:4:2: error: #error "C++11 is not supported"
+ #error "C++11 is not supported"
+  ^
+/home/s106/opencv4arm/opencv-3.4.4/cmake/checks/cxx11.cpp: In function 'int main()':
+/home/s106/opencv4arm/opencv-3.4.4/cmake/checks/cxx11.cpp:11:10: error: 'res' does not name a type
+     auto res = test();
+          ^
+/home/s106/opencv4arm/opencv-3.4.4/cmake/checks/cxx11.cpp:12:12: error: 'res' was not declared in this scope
+     return res;
+            ^
+CMakeFiles/cmTryCompileExec963105325.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec963105325.dir/cxx11.cpp.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec963105325.dir/cxx11.cpp.o] Error 1
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+Makefile:114: recipe for target 'cmTryCompileExec963105325/fast' failed
+make: *** [cmTryCompileExec963105325/fast] Error 2
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option '-Wmissing-prototypes' is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1186524138/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1186524138.dir/build.make CMakeFiles/cmTryCompileExec1186524138.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1186524138.dir/src.cxx.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++    -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -o CMakeFiles/cmTryCompileExec1186524138.dir/src.cxx.o -c /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option '-Wmissing-prototypes' is valid for C/ObjC but not for C++
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking CXX executable cmTryCompileExec1186524138
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1186524138.dir/link.txt --verbose=1
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++     -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec1186524138.dir/src.cxx.o  -o cmTryCompileExec1186524138 -rdynamic 
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option '-Wstrict-prototypes' is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3116378042/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3116378042.dir/build.make CMakeFiles/cmTryCompileExec3116378042.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3116378042.dir/src.cxx.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++    -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wstrict-prototypes -o CMakeFiles/cmTryCompileExec3116378042.dir/src.cxx.o -c /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option '-Wstrict-prototypes' is valid for C/ObjC but not for C++
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking CXX executable cmTryCompileExec3116378042
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3116378042.dir/link.txt --verbose=1
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++     -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3116378042.dir/src.cxx.o  -o cmTryCompileExec3116378042 -rdynamic 
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option '-Wsign-promo' is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4111149101/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4111149101.dir/build.make CMakeFiles/cmTryCompileExec4111149101.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4111149101.dir/src.c.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -o CMakeFiles/cmTryCompileExec4111149101.dir/src.c.o   -c /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option '-Wsign-promo' is valid for C++/ObjC++ but not for C
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTryCompileExec4111149101
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4111149101.dir/link.txt --verbose=1
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc    -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec4111149101.dir/src.c.o  -o cmTryCompileExec4111149101 -rdynamic 
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option '-Wno-delete-non-virtual-dtor' is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3318032006/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3318032006.dir/build.make CMakeFiles/cmTryCompileExec3318032006.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3318032006.dir/src.c.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTryCompileExec3318032006.dir/src.c.o   -c /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option '-Wno-delete-non-virtual-dtor' is valid for C++/ObjC++ but not for C
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTryCompileExec3318032006
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3318032006.dir/link.txt --verbose=1
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc    -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3318032006.dir/src.c.o  -o cmTryCompileExec3318032006 -rdynamic 
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option "-Wno-unnamed-type-template-args"'
+Compilation failed:
+    source file: '/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2394324850/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2394324850.dir/build.make CMakeFiles/cmTryCompileExec2394324850.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2394324850.dir/src.cxx.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++    -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -o CMakeFiles/cmTryCompileExec2394324850.dir/src.cxx.o -c /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.cxx
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option "-Wno-unnamed-type-template-args"
+Linking CXX executable cmTryCompileExec2394324850
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2394324850.dir/link.txt --verbose=1
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++     -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec2394324850.dir/src.cxx.o  -o cmTryCompileExec2394324850 -rdynamic 
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option "-Wno-unnamed-type-template-args"'
+Compilation failed:
+    source file: '/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3815138297/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3815138297.dir/build.make CMakeFiles/cmTryCompileExec3815138297.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3815138297.dir/src.c.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-unnamed-type-template-args -o CMakeFiles/cmTryCompileExec3815138297.dir/src.c.o   -c /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.c
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1: warning: unrecognized command line option "-Wno-unnamed-type-template-args"
+Linking C executable cmTryCompileExec3815138297
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3815138297.dir/link.txt --verbose=1
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc    -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3815138297.dir/src.c.o  -o cmTryCompileExec3815138297 -rdynamic 
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+
+===== END =====
+
+Compilation failed:
+    source file: '/home/s106/opencv4arm/opencv-3.4.4/cmake/checks/cpu_neon.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1045950363/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1045950363.dir/build.make CMakeFiles/cmTryCompileExec1045950363.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1045950363.dir/cpu_neon.cpp.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++    -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec1045950363.dir/cpu_neon.cpp.o -c /home/s106/opencv4arm/opencv-3.4.4/cmake/checks/cpu_neon.cpp
+/home/s106/opencv4arm/opencv-3.4.4/cmake/checks/cpu_neon.cpp:20:2: error: #error "NEON is not supported"
+ #error "NEON is not supported"
+  ^
+/home/s106/opencv4arm/opencv-3.4.4/cmake/checks/cpu_neon.cpp: In function 'int main()':
+/home/s106/opencv4arm/opencv-3.4.4/cmake/checks/cpu_neon.cpp:25:23: error: 'test' was not declared in this scope
+   printf("%d\n", test());
+                       ^
+CMakeFiles/cmTryCompileExec1045950363.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec1045950363.dir/cpu_neon.cpp.o' failed
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+make[1]: *** [CMakeFiles/cmTryCompileExec1045950363.dir/cpu_neon.cpp.o] Error 1
+Makefile:114: recipe for target 'cmTryCompileExec1045950363/fast' failed
+make: *** [cmTryCompileExec1045950363/fast] Error 2
+
+===== END =====
+
+Compilation failed:
+    source file: '/home/s106/opencv4arm/opencv-3.4.4/cmake/checks/cpu_fp16.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec46129463/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec46129463.dir/build.make CMakeFiles/cmTryCompileExec46129463.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec46129463.dir/cpu_fp16.cpp.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++    -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec46129463.dir/cpu_fp16.cpp.o -c /home/s106/opencv4arm/opencv-3.4.4/cmake/checks/cpu_fp16.cpp
+In file included from /home/s106/opencv4arm/opencv-3.4.4/cmake/checks/cpu_fp16.cpp:15:0:
+/home/s106/arm/arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.4/include/arm_neon.h:31:2: error: #error You must enable NEON instructions (e.g. -mfloat-abi=softfp -mfpu=neon) to use arm_neon.h
+ #error You must enable NEON instructions (e.g. -mfloat-abi=softfp -mfpu=neon) to use arm_neon.h
+  ^
+/home/s106/opencv4arm/opencv-3.4.4/cmake/checks/cpu_fp16.cpp: In function 'int test()':
+/home/s106/opencv4arm/opencv-3.4.4/cmake/checks/cpu_fp16.cpp:20:5: error: 'float32x4_t' was not declared in this scope
+     float32x4_t v_src = *(float32x4_t*)src;
+     ^
+/home/s106/opencv4arm/opencv-3.4.4/cmake/checks/cpu_fp16.cpp:21:5: error: 'float16x4_t' was not declared in this scope
+     float16x4_t v_dst = vcvt_f16_f32(v_src);
+     ^
+/home/s106/opencv4arm/opencv-3.4.4/cmake/checks/cpu_fp16.cpp:22:19: error: expected primary-expression before ')' token
+     *(float16x4_t*)dst = v_dst;
+                   ^
+CMakeFiles/cmTryCompileExec46129463.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec46129463.dir/cpu_fp16.cpp.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec46129463.dir/cpu_fp16.cpp.o] Error 1
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+Makefile:114: recipe for target 'cmTryCompileExec46129463/fast' failed
+make: *** [cmTryCompileExec46129463/fast] Error 2
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option '-fvisibility-inlines-hidden' is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1064924086/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1064924086.dir/build.make CMakeFiles/cmTryCompileExec1064924086.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1064924086.dir/src.c.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/cmTryCompileExec1064924086.dir/src.c.o   -c /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option '-fvisibility-inlines-hidden' is valid for C++/ObjC++ but not for C
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTryCompileExec1064924086
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1064924086.dir/link.txt --verbose=1
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc    -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec1064924086.dir/src.c.o  -o cmTryCompileExec1064924086 -rdynamic 
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+
+===== END =====
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2513490637/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2513490637.dir/build.make CMakeFiles/cmTryCompileExec2513490637.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2513490637.dir/TestEndianess.c.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec2513490637.dir/TestEndianess.c.o   -c /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTryCompileExec2513490637
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2513490637.dir/link.txt --verbose=1
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec2513490637.dir/TestEndianess.c.o  -o cmTryCompileExec2513490637 -rdynamic 
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of off64_t failed with the following output:
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec184089647/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec184089647.dir/build.make CMakeFiles/cmTryCompileExec184089647.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec184089647.dir/OFF64_T.c.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec184089647.dir/OFF64_T.c.o   -c /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CheckTypeSize/OFF64_T.c
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CheckTypeSize/OFF64_T.c:17:22: error: 'off64_t' undeclared here (not in a function)
+ #define SIZE (sizeof(off64_t))
+                      ^
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CheckTypeSize/OFF64_T.c:19:12: note: in expansion of macro 'SIZE'
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+CMakeFiles/cmTryCompileExec184089647.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec184089647.dir/OFF64_T.c.o' failed
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+make[1]: *** [CMakeFiles/cmTryCompileExec184089647.dir/OFF64_T.c.o] Error 1
+Makefile:114: recipe for target 'cmTryCompileExec184089647/fast' failed
+make: *** [cmTryCompileExec184089647/fast] Error 2
+
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option "-Wno-shorten-64-to-32"'
+Compilation failed:
+    source file: '/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2195288109/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2195288109.dir/build.make CMakeFiles/cmTryCompileExec2195288109.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2195288109.dir/src.c.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -Wno-shorten-64-to-32 -o CMakeFiles/cmTryCompileExec2195288109.dir/src.c.o   -c /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.c
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1: warning: unrecognized command line option "-Wno-shorten-64-to-32"
+Linking C executable cmTryCompileExec2195288109
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2195288109.dir/link.txt --verbose=1
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden  -O3 -DNDEBUG     -Wl,--gc-sections CMakeFiles/cmTryCompileExec2195288109.dir/src.c.o  -o cmTryCompileExec2195288109 -rdynamic 
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option "-Wno-shift-negative-value"'
+Compilation failed:
+    source file: '/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-shift-negative-value'
+===== BUILD LOG =====
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec374092761/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec374092761.dir/build.make CMakeFiles/cmTryCompileExec374092761.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec374092761.dir/src.c.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security    -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG -fPIE   -Wno-shift-negative-value -o CMakeFiles/cmTryCompileExec374092761.dir/src.c.o   -c /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.c
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1: warning: unrecognized command line option "-Wno-shift-negative-value"
+Linking C executable cmTryCompileExec374092761
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec374092761.dir/link.txt --verbose=1
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security    -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG     -Wl,--gc-sections CMakeFiles/cmTryCompileExec374092761.dir/src.c.o  -o cmTryCompileExec374092761 -rdynamic 
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option "-Wno-implicit-fallthrough"'
+Compilation failed:
+    source file: '/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-implicit-fallthrough'
+===== BUILD LOG =====
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3342482258/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3342482258.dir/build.make CMakeFiles/cmTryCompileExec3342482258.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3342482258.dir/src.c.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security     -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef  -O3 -DNDEBUG -fPIE   -Wno-implicit-fallthrough -o CMakeFiles/cmTryCompileExec3342482258.dir/src.c.o   -c /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.c
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1: warning: unrecognized command line option "-Wno-implicit-fallthrough"
+Linking C executable cmTryCompileExec3342482258
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3342482258.dir/link.txt --verbose=1
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security     -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef  -O3 -DNDEBUG     -Wl,--gc-sections CMakeFiles/cmTryCompileExec3342482258.dir/src.c.o  -o cmTryCompileExec3342482258 -rdynamic 
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+
+===== END =====
+
+Determining if the include file io.h exists failed with the following output:
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec400395217/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec400395217.dir/build.make CMakeFiles/cmTryCompileExec400395217.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec400395217.dir/CheckIncludeFile.c.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec400395217.dir/CheckIncludeFile.c.o   -c /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:16: fatal error: io.h: No such file or directory
+ #include <io.h>
+                ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec400395217.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec400395217.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec400395217.dir/CheckIncludeFile.c.o] Error 1
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+Makefile:114: recipe for target 'cmTryCompileExec400395217/fast' failed
+make: *** [cmTryCompileExec400395217/fast] Error 2
+
+
+Determining size of INT8 failed with the following output:
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec632855226/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec632855226.dir/build.make CMakeFiles/cmTryCompileExec632855226.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec632855226.dir/int8.c.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec632855226.dir/int8.c.o   -c /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CheckTypeSize/int8.c
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CheckTypeSize/int8.c:17:22: error: 'INT8' undeclared here (not in a function)
+ #define SIZE (sizeof(INT8))
+                      ^
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CheckTypeSize/int8.c:19:12: note: in expansion of macro 'SIZE'
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+CMakeFiles/cmTryCompileExec632855226.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec632855226.dir/int8.c.o' failed
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+make[1]: *** [CMakeFiles/cmTryCompileExec632855226.dir/int8.c.o] Error 1
+Makefile:114: recipe for target 'cmTryCompileExec632855226/fast' failed
+make: *** [cmTryCompileExec632855226/fast] Error 2
+
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CheckTypeSize/int8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(INT8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT16 failed with the following output:
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec81509152/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec81509152.dir/build.make CMakeFiles/cmTryCompileExec81509152.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec81509152.dir/int16.c.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec81509152.dir/int16.c.o   -c /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CheckTypeSize/int16.c
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CheckTypeSize/int16.c:17:22: error: 'INT16' undeclared here (not in a function)
+ #define SIZE (sizeof(INT16))
+                      ^
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CheckTypeSize/int16.c:19:12: note: in expansion of macro 'SIZE'
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+CMakeFiles/cmTryCompileExec81509152.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec81509152.dir/int16.c.o' failed
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+make[1]: *** [CMakeFiles/cmTryCompileExec81509152.dir/int16.c.o] Error 1
+Makefile:114: recipe for target 'cmTryCompileExec81509152/fast' failed
+make: *** [cmTryCompileExec81509152/fast] Error 2
+
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CheckTypeSize/int16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(INT16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT32 failed with the following output:
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3369135615/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3369135615.dir/build.make CMakeFiles/cmTryCompileExec3369135615.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3369135615.dir/int32.c.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec3369135615.dir/int32.c.o   -c /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CheckTypeSize/int32.c
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CheckTypeSize/int32.c:17:22: error: 'INT32' undeclared here (not in a function)
+ #define SIZE (sizeof(INT32))
+                      ^
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CheckTypeSize/int32.c:19:12: note: in expansion of macro 'SIZE'
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+CMakeFiles/cmTryCompileExec3369135615.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3369135615.dir/int32.c.o' failed
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+make[1]: *** [CMakeFiles/cmTryCompileExec3369135615.dir/int32.c.o] Error 1
+Makefile:114: recipe for target 'cmTryCompileExec3369135615/fast' failed
+make: *** [cmTryCompileExec3369135615/fast] Error 2
+
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CheckTypeSize/int32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(INT32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function floor exists failed with the following output:
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2779408016/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2779408016.dir/build.make CMakeFiles/cmTryCompileExec2779408016.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2779408016.dir/CheckFunctionExists.c.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=floor -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec2779408016.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/local/share/cmake-2.8/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+<command-line>:0:23: warning: conflicting types for built-in function 'floor'
+/usr/local/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec2779408016
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2779408016.dir/link.txt --verbose=1
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=floor -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec2779408016.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2779408016 -rdynamic 
+CMakeFiles/cmTryCompileExec2779408016.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text.startup.main+0x6)：对‘floor’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec2779408016.dir/build.make:88: recipe for target 'cmTryCompileExec2779408016' failed
+make[1]: *** [cmTryCompileExec2779408016] Error 1
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+Makefile:114: recipe for target 'cmTryCompileExec2779408016/fast' failed
+make: *** [cmTryCompileExec2779408016/fast] Error 2
+
+
+Determining if the function pow exists failed with the following output:
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3200957140/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3200957140.dir/build.make CMakeFiles/cmTryCompileExec3200957140.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3200957140.dir/CheckFunctionExists.c.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=pow -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec3200957140.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/local/share/cmake-2.8/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+<command-line>:0:23: warning: conflicting types for built-in function 'pow'
+/usr/local/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec3200957140
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3200957140.dir/link.txt --verbose=1
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=pow -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3200957140.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3200957140 -rdynamic 
+CMakeFiles/cmTryCompileExec3200957140.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text.startup.main+0x6)：对‘pow’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec3200957140.dir/build.make:88: recipe for target 'cmTryCompileExec3200957140' failed
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+make[1]: *** [cmTryCompileExec3200957140] Error 1
+Makefile:114: recipe for target 'cmTryCompileExec3200957140/fast' failed
+make: *** [cmTryCompileExec3200957140/fast] Error 2
+
+
+Determining if the function sqrt exists failed with the following output:
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3475206356/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3475206356.dir/build.make CMakeFiles/cmTryCompileExec3475206356.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3475206356.dir/CheckFunctionExists.c.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sqrt -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec3475206356.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/local/share/cmake-2.8/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+<command-line>:0:23: warning: conflicting types for built-in function 'sqrt'
+/usr/local/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec3475206356
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3475206356.dir/link.txt --verbose=1
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sqrt -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3475206356.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3475206356 -rdynamic 
+CMakeFiles/cmTryCompileExec3475206356.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text.startup.main+0x6)：对‘sqrt’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec3475206356.dir/build.make:88: recipe for target 'cmTryCompileExec3475206356' failed
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+make[1]: *** [cmTryCompileExec3475206356] Error 1
+Makefile:114: recipe for target 'cmTryCompileExec3475206356/fast' failed
+make: *** [cmTryCompileExec3475206356/fast] Error 2
+
+
+Determining if the function setmode exists failed with the following output:
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2592915190/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2592915190.dir/build.make CMakeFiles/cmTryCompileExec2592915190.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2592915190.dir/CheckFunctionExists.c.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=setmode -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec2592915190.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/local/share/cmake-2.8/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+Linking C executable cmTryCompileExec2592915190
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2592915190.dir/link.txt --verbose=1
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=setmode -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec2592915190.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2592915190 -rdynamic 
+CMakeFiles/cmTryCompileExec2592915190.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text.startup.main+0x6)：对‘setmode’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec2592915190.dir/build.make:88: recipe for target 'cmTryCompileExec2592915190' failed
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+make[1]: *** [cmTryCompileExec2592915190] Error 1
+Makefile:114: recipe for target 'cmTryCompileExec2592915190/fast' failed
+make: *** [cmTryCompileExec2592915190/fast] Error 2
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3760292991/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3760292991.dir/build.make CMakeFiles/cmTryCompileExec3760292991.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3760292991.dir/TestEndianess.c.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec3760292991.dir/TestEndianess.c.o   -c /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTryCompileExec3760292991
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3760292991.dir/link.txt --verbose=1
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3760292991.dir/TestEndianess.c.o  -o cmTryCompileExec3760292991 -rdynamic 
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option "-Wno-misleading-indentation"'
+Compilation failed:
+    source file: '/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-misleading-indentation'
+===== BUILD LOG =====
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3165965750/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3165965750.dir/build.make CMakeFiles/cmTryCompileExec3165965750.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3165965750.dir/src.c.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-maybe-uninitialized -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast  -O3 -DNDEBUG -fPIE   -Wno-misleading-indentation -o CMakeFiles/cmTryCompileExec3165965750.dir/src.c.o   -c /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.c
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1: warning: unrecognized command line option "-Wno-misleading-indentation"
+Linking C executable cmTryCompileExec3165965750
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3165965750.dir/link.txt --verbose=1
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-maybe-uninitialized -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast  -O3 -DNDEBUG     -Wl,--gc-sections CMakeFiles/cmTryCompileExec3165965750.dir/src.c.o  -o cmTryCompileExec3165965750 -rdynamic 
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option "-Wno-pointer-compare"'
+Compilation failed:
+    source file: '/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-pointer-compare'
+===== BUILD LOG =====
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2396917364/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2396917364.dir/build.make CMakeFiles/cmTryCompileExec2396917364.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2396917364.dir/src.c.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-unused-but-set-parameter -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow  -O3 -DNDEBUG -fPIE   -Wno-pointer-compare -o CMakeFiles/cmTryCompileExec2396917364.dir/src.c.o   -c /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.c
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1: warning: unrecognized command line option "-Wno-pointer-compare"
+Linking C executable cmTryCompileExec2396917364
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2396917364.dir/link.txt --verbose=1
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-unused-but-set-parameter -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow  -O3 -DNDEBUG     -Wl,--gc-sections CMakeFiles/cmTryCompileExec2396917364.dir/src.c.o  -o cmTryCompileExec2396917364 -rdynamic 
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option "-Wno-absolute-value"'
+Compilation failed:
+    source file: '/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-absolute-value'
+===== BUILD LOG =====
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec330864058/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec330864058.dir/build.make CMakeFiles/cmTryCompileExec330864058.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec330864058.dir/src.c.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-unused-but-set-parameter -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow  -O3 -DNDEBUG -fPIE   -Wno-absolute-value -o CMakeFiles/cmTryCompileExec330864058.dir/src.c.o   -c /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.c
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1: warning: unrecognized command line option "-Wno-absolute-value"
+Linking C executable cmTryCompileExec330864058
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec330864058.dir/link.txt --verbose=1
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-unused-but-set-parameter -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow  -O3 -DNDEBUG     -Wl,--gc-sections CMakeFiles/cmTryCompileExec330864058.dir/src.c.o  -o cmTryCompileExec330864058 -rdynamic 
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option "-Wno-misleading-indentation"'
+Compilation failed:
+    source file: '/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-misleading-indentation'
+===== BUILD LOG =====
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2571396053/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2571396053.dir/build.make CMakeFiles/cmTryCompileExec2571396053.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2571396053.dir/src.cxx.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith  -Wsign-promo  -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations  -O3 -DNDEBUG -fPIE   -Wno-misleading-indentation -o CMakeFiles/cmTryCompileExec2571396053.dir/src.cxx.o -c /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.cxx
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option "-Wno-misleading-indentation"
+Linking CXX executable cmTryCompileExec2571396053
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2571396053.dir/link.txt --verbose=1
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++      -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith  -Wsign-promo  -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations  -O3 -DNDEBUG     -Wl,--gc-sections CMakeFiles/cmTryCompileExec2571396053.dir/src.cxx.o  -o cmTryCompileExec2571396053 -rdynamic 
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option "-Wno-suggest-override"'
+Compilation failed:
+    source file: '/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-suggest-override'
+===== BUILD LOG =====
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec935882698/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec935882698.dir/build.make CMakeFiles/cmTryCompileExec935882698.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec935882698.dir/src.cxx.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith  -Wsign-promo  -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-deprecated  -O3 -DNDEBUG -fPIE   -Wno-suggest-override -o CMakeFiles/cmTryCompileExec935882698.dir/src.cxx.o -c /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.cxx
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option "-Wno-suggest-override"
+Linking CXX executable cmTryCompileExec935882698
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec935882698.dir/link.txt --verbose=1
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++      -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith  -Wsign-promo  -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-deprecated  -O3 -DNDEBUG     -Wl,--gc-sections CMakeFiles/cmTryCompileExec935882698.dir/src.cxx.o  -o cmTryCompileExec935882698 -rdynamic 
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option "-Wno-inconsistent-missing-override"'
+Compilation failed:
+    source file: '/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-inconsistent-missing-override'
+===== BUILD LOG =====
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3150958022/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3150958022.dir/build.make CMakeFiles/cmTryCompileExec3150958022.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3150958022.dir/src.cxx.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith  -Wsign-promo  -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-deprecated  -O3 -DNDEBUG -fPIE   -Wno-inconsistent-missing-override -o CMakeFiles/cmTryCompileExec3150958022.dir/src.cxx.o -c /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.cxx
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option "-Wno-inconsistent-missing-override"
+Linking CXX executable cmTryCompileExec3150958022
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3150958022.dir/link.txt --verbose=1
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++      -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith  -Wsign-promo  -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-deprecated  -O3 -DNDEBUG     -Wl,--gc-sections CMakeFiles/cmTryCompileExec3150958022.dir/src.cxx.o  -o cmTryCompileExec3150958022 -rdynamic 
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option "-Wno-implicit-fallthrough"'
+Compilation failed:
+    source file: '/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-implicit-fallthrough'
+===== BUILD LOG =====
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec315398182/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec315398182.dir/build.make CMakeFiles/cmTryCompileExec315398182.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec315398182.dir/src.cxx.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith  -Wsign-promo  -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-deprecated  -O3 -DNDEBUG -fPIE   -Wno-implicit-fallthrough -o CMakeFiles/cmTryCompileExec315398182.dir/src.cxx.o -c /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.cxx
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option "-Wno-implicit-fallthrough"
+Linking CXX executable cmTryCompileExec315398182
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec315398182.dir/link.txt --verbose=1
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++      -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith  -Wsign-promo  -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-deprecated  -O3 -DNDEBUG     -Wl,--gc-sections CMakeFiles/cmTryCompileExec315398182.dir/src.cxx.o  -o cmTryCompileExec315398182 -rdynamic 
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+
+===== END =====
+
+Determining if the include file linux/videodev.h exists failed with the following output:
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1631682754/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1631682754.dir/build.make CMakeFiles/cmTryCompileExec1631682754.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1631682754.dir/CheckIncludeFile.c.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec1631682754.dir/CheckIncludeFile.c.o   -c /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: fatal error: linux/videodev.h: No such file or directory
+ #include <linux/videodev.h>
+                            ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec1631682754.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec1631682754.dir/CheckIncludeFile.c.o' failed
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+make[1]: *** [CMakeFiles/cmTryCompileExec1631682754.dir/CheckIncludeFile.c.o] Error 1
+Makefile:114: recipe for target 'cmTryCompileExec1631682754/fast' failed
+make: *** [cmTryCompileExec1631682754/fast] Error 2
+
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1133149795/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1133149795.dir/build.make CMakeFiles/cmTryCompileExec1133149795.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1133149795.dir/CheckIncludeFile.c.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec1133149795.dir/CheckIncludeFile.c.o   -c /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: fatal error: sys/videoio.h: No such file or directory
+ #include <sys/videoio.h>
+                         ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec1133149795.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec1133149795.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec1133149795.dir/CheckIncludeFile.c.o] Error 1
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+Makefile:114: recipe for target 'cmTryCompileExec1133149795/fast' failed
+make: *** [cmTryCompileExec1133149795/fast] Error 2
+
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option '-Wno-missing-prototypes' is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-missing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3189637125/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3189637125.dir/build.make CMakeFiles/cmTryCompileExec3189637125.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3189637125.dir/src.cxx.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated  -O3 -DNDEBUG -fPIE   -Wno-missing-prototypes -o CMakeFiles/cmTryCompileExec3189637125.dir/src.cxx.o -c /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option '-Wno-missing-prototypes' is valid for C/ObjC but not for C++
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking CXX executable cmTryCompileExec3189637125
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3189637125.dir/link.txt --verbose=1
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++      -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated  -O3 -DNDEBUG     -Wl,--gc-sections CMakeFiles/cmTryCompileExec3189637125.dir/src.cxx.o  -o cmTryCompileExec3189637125 -rdynamic 
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option "-Wno-tautological-undefined-compare"'
+Compilation failed:
+    source file: '/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-tautological-undefined-compare'
+===== BUILD LOG =====
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1427991911/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1427991911.dir/build.make CMakeFiles/cmTryCompileExec1427991911.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1427991911.dir/src.cxx.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG -fPIE   -Wno-tautological-undefined-compare -o CMakeFiles/cmTryCompileExec1427991911.dir/src.cxx.o -c /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.cxx
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option "-Wno-tautological-undefined-compare"
+Linking CXX executable cmTryCompileExec1427991911
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1427991911.dir/link.txt --verbose=1
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++      -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG     -Wl,--gc-sections CMakeFiles/cmTryCompileExec1427991911.dir/src.cxx.o  -o cmTryCompileExec1427991911 -rdynamic 
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option "-Wno-unused-const-variable"'
+Compilation failed:
+    source file: '/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-unused-const-variable'
+===== BUILD LOG =====
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2630538592/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2630538592.dir/build.make CMakeFiles/cmTryCompileExec2630538592.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2630538592.dir/src.cxx.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -O3 -DNDEBUG -fPIE   -Wno-unused-const-variable -o CMakeFiles/cmTryCompileExec2630538592.dir/src.cxx.o -c /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.cxx
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option "-Wno-unused-const-variable"
+Linking CXX executable cmTryCompileExec2630538592
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2630538592.dir/link.txt --verbose=1
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++      -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -O3 -DNDEBUG     -Wl,--gc-sections CMakeFiles/cmTryCompileExec2630538592.dir/src.cxx.o  -o cmTryCompileExec2630538592 -rdynamic 
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option "-Wno-shorten-64-to-32"'
+Compilation failed:
+    source file: '/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2781999468/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2781999468.dir/build.make CMakeFiles/cmTryCompileExec2781999468.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2781999468.dir/src.cxx.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -O3 -DNDEBUG -fPIE   -Wno-shorten-64-to-32 -o CMakeFiles/cmTryCompileExec2781999468.dir/src.cxx.o -c /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.cxx
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option "-Wno-shorten-64-to-32"
+Linking CXX executable cmTryCompileExec2781999468
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2781999468.dir/link.txt --verbose=1
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++      -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -O3 -DNDEBUG     -Wl,--gc-sections CMakeFiles/cmTryCompileExec2781999468.dir/src.cxx.o  -o cmTryCompileExec2781999468 -rdynamic 
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option "-Wno-enum-compare-switch"'
+Compilation failed:
+    source file: '/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-enum-compare-switch'
+===== BUILD LOG =====
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4276990426/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4276990426.dir/build.make CMakeFiles/cmTryCompileExec4276990426.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4276990426.dir/src.cxx.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-invalid-offsetof  -O3 -DNDEBUG -fPIE   -Wno-enum-compare-switch -o CMakeFiles/cmTryCompileExec4276990426.dir/src.cxx.o -c /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.cxx
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option "-Wno-enum-compare-switch"
+Linking CXX executable cmTryCompileExec4276990426
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4276990426.dir/link.txt --verbose=1
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++      -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-invalid-offsetof  -O3 -DNDEBUG     -Wl,--gc-sections CMakeFiles/cmTryCompileExec4276990426.dir/src.cxx.o  -o cmTryCompileExec4276990426 -rdynamic 
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+
+===== END =====
+
+Determining if the include file linux/videodev.h exists failed with the following output:
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3937789676/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3937789676.dir/build.make CMakeFiles/cmTryCompileExec3937789676.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3937789676.dir/CheckIncludeFile.c.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec3937789676.dir/CheckIncludeFile.c.o   -c /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: fatal error: linux/videodev.h: No such file or directory
+ #include <linux/videodev.h>
+                            ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec3937789676.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3937789676.dir/CheckIncludeFile.c.o' failed
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+make[1]: *** [CMakeFiles/cmTryCompileExec3937789676.dir/CheckIncludeFile.c.o] Error 1
+Makefile:114: recipe for target 'cmTryCompileExec3937789676/fast' failed
+make: *** [cmTryCompileExec3937789676/fast] Error 2
+
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1101470024/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1101470024.dir/build.make CMakeFiles/cmTryCompileExec1101470024.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1101470024.dir/CheckIncludeFile.c.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec1101470024.dir/CheckIncludeFile.c.o   -c /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: fatal error: sys/videoio.h: No such file or directory
+ #include <sys/videoio.h>
+                         ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec1101470024.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec1101470024.dir/CheckIncludeFile.c.o' failed
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+make[1]: *** [CMakeFiles/cmTryCompileExec1101470024.dir/CheckIncludeFile.c.o] Error 1
+Makefile:114: recipe for target 'cmTryCompileExec1101470024/fast' failed
+make: *** [cmTryCompileExec1101470024/fast] Error 2
+
+
+Determining if the include file linux/videodev.h exists failed with the following output:
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3967410458/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3967410458.dir/build.make CMakeFiles/cmTryCompileExec3967410458.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3967410458.dir/CheckIncludeFile.c.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec3967410458.dir/CheckIncludeFile.c.o   -c /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: fatal error: linux/videodev.h: No such file or directory
+ #include <linux/videodev.h>
+                            ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec3967410458.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3967410458.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec3967410458.dir/CheckIncludeFile.c.o] Error 1
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+Makefile:114: recipe for target 'cmTryCompileExec3967410458/fast' failed
+make: *** [cmTryCompileExec3967410458/fast] Error 2
+
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2489682071/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2489682071.dir/build.make CMakeFiles/cmTryCompileExec2489682071.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2489682071.dir/CheckIncludeFile.c.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec2489682071.dir/CheckIncludeFile.c.o   -c /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: fatal error: sys/videoio.h: No such file or directory
+ #include <sys/videoio.h>
+                         ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec2489682071.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2489682071.dir/CheckIncludeFile.c.o' failed
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+make[1]: *** [CMakeFiles/cmTryCompileExec2489682071.dir/CheckIncludeFile.c.o] Error 1
+Makefile:114: recipe for target 'cmTryCompileExec2489682071/fast' failed
+make: *** [cmTryCompileExec2489682071/fast] Error 2
+
+
+Determining if the include file linux/videodev.h exists failed with the following output:
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2933141484/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2933141484.dir/build.make CMakeFiles/cmTryCompileExec2933141484.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2933141484.dir/CheckIncludeFile.c.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec2933141484.dir/CheckIncludeFile.c.o   -c /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: fatal error: linux/videodev.h: No such file or directory
+ #include <linux/videodev.h>
+                            ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec2933141484.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2933141484.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec2933141484.dir/CheckIncludeFile.c.o] Error 1
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+Makefile:114: recipe for target 'cmTryCompileExec2933141484/fast' failed
+make: *** [cmTryCompileExec2933141484/fast] Error 2
+
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3126651000/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3126651000.dir/build.make CMakeFiles/cmTryCompileExec3126651000.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3126651000.dir/CheckIncludeFile.c.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec3126651000.dir/CheckIncludeFile.c.o   -c /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: fatal error: sys/videoio.h: No such file or directory
+ #include <sys/videoio.h>
+                         ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec3126651000.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3126651000.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec3126651000.dir/CheckIncludeFile.c.o] Error 1
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+Makefile:114: recipe for target 'cmTryCompileExec3126651000/fast' failed
+make: *** [cmTryCompileExec3126651000/fast] Error 2
+
+
+Determining if the include file linux/videodev.h exists failed with the following output:
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3047468756/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3047468756.dir/build.make CMakeFiles/cmTryCompileExec3047468756.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3047468756.dir/CheckIncludeFile.c.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec3047468756.dir/CheckIncludeFile.c.o   -c /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: fatal error: linux/videodev.h: No such file or directory
+ #include <linux/videodev.h>
+                            ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec3047468756.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3047468756.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec3047468756.dir/CheckIncludeFile.c.o] Error 1
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+Makefile:114: recipe for target 'cmTryCompileExec3047468756/fast' failed
+make: *** [cmTryCompileExec3047468756/fast] Error 2
+
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1620779555/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1620779555.dir/build.make CMakeFiles/cmTryCompileExec1620779555.dir/build
+make[1]: 进入目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+/usr/local/bin/cmake -E cmake_progress_report /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1620779555.dir/CheckIncludeFile.c.o
+/home/s106/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec1620779555.dir/CheckIncludeFile.c.o   -c /home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: fatal error: sys/videoio.h: No such file or directory
+ #include <sys/videoio.h>
+                         ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec1620779555.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec1620779555.dir/CheckIncludeFile.c.o' failed
+make[1]: 离开目录“/home/s106/opencv4arm/opencv-3.4.4/build/CMakeFiles/CMakeTmp”
+make[1]: *** [CMakeFiles/cmTryCompileExec1620779555.dir/CheckIncludeFile.c.o] Error 1
+Makefile:114: recipe for target 'cmTryCompileExec1620779555/fast' failed
+make: *** [cmTryCompileExec1620779555/fast] Error 2
+
+

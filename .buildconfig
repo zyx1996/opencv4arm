@@ -1,0 +1,10 @@
+[default]
+name=Default
+runtime=host
+config-opts=
+run-opts=
+prefix=/home/s106/.cache/gnome-builder/install/opencv4arm/host
+app-id=
+postbuild=
+prebuild=
+default=true
